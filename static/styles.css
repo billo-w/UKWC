@@ -1,0 +1,49 @@
+body { 
+    font-family: 'Space Grotesk', 'Space Mono', sans-serif;
+    height: 100%;
+    background-color: #EEF7FF;
+}
+
+
+header {
+    margin: 0 auto;
+    padding: 25px 120px;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0 auto;
+    color: #2A2A2A;
+    font-family: "Space Grotesk";
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.1px;
+    padding: 0px;
+}
+
+header h2 {
+    margin: 0 auto;
+    color: #2A2A2A;
+    font-family: "Space Grotesk";
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.1px;
+    padding: 0px;
+}
+
+.Hero-Image {
+    padding-left: 120px;
+}
+
+nav {
+    display: flex;
+}
+
