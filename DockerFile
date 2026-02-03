@@ -1,0 +1,11 @@
+# Stage 1: Use the official Nginx image as the base
+FROM nginx:alpine
+
+# Stage 2: Copy your website files to the Nginx web root folder
+COPY . /usr/share/nginx/html
+
+# Stage 3: Expose port 80 (standard web traffic port)
+EXPOSE 80
+
+# Stage 4: Start Nginx
+CMD ["nginx", "-g", "daemon off;"]

@@ -4,6 +4,13 @@ body {
     background-color: #EEF7FF;
 }
 
+h1 {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+p {
+    font-family: 'Space Mono', monospace;
+}
 
 header {
     margin: 0 auto;
@@ -44,6 +51,20 @@ header h2 {
 }
 
 nav {
+    margin: 0 auto;
+    padding: 0px 120px;
+    text-align: left;
     display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    align-items: center;
 }
 
+ul {
+    display: inline-flex;
+    height: 15px;
+    padding-left: 13px;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+}
