@@ -1,7 +1,18 @@
 body { 
-    font-family: 'Space Grotesk', 'Space Mono', sans-serif;
-    height: 100%;
     background-color: #EEF7FF;
+}
+
+.container {
+  /* Set the maximum width you want your content to span */
+  max-width: 1100px; 
+  
+  /* This centers the container horizontally */
+  margin-left: auto;
+  margin-right: auto;
+  
+  /* Add a little padding so text doesn't touch the screen edge on mobile phones */
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 h1 {
@@ -14,7 +25,6 @@ p {
 
 header {
     margin: 0 auto;
-    padding: 25px 120px;
     text-align: left;
     display: flex;
     align-items: flex-start;
@@ -31,7 +41,6 @@ header h1 {
     font-weight: 700;
     line-height: normal;
     letter-spacing: -1.1px;
-    padding: 0px;
 }
 
 header h2 {
