@@ -1,9 +1,16 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
 body { 
     background-color: #EEF7FF;
 }
 
 .container {
-  max-width: 1150px; 
+  max-width: 1214.705px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
@@ -86,12 +93,9 @@ header {
 
 .Hero-Image {
     display: flex;
-    width: 501px;
-    height: 428px;
-    padding: 10px 7px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 1px;
+    margin-left: 110px;
 }   
 
 h1, h2 {
@@ -173,4 +177,15 @@ header h2 {
     letter-spacing: 0.56px;
     width: 488px;
     margin-left: 5px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #270D83;
+    color: white;
+    text-align: center;
+    padding: 12px 0px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
