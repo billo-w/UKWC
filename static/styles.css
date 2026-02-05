@@ -126,3 +126,51 @@ header h2 {
     padding: 0px;
 }
 
+.Join-us-Button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid #270D83;
+    background-color: inherit;
+    color: #270D83;
+    text-align: center;
+    font-family: "Space Grotesk";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 7px 14px 7px 17px;
+    margin-right: 12px;
+}
+
+.More-info-Button {
+    display: inline-flex;
+    align-items: center;
+    padding: 7px 14px 7px 17px;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Space Grotesk";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 5px;
+    background: #270D83;
+    border: 1px solid #270D83;
+
+}
+
+.Hero-Text {
+    color: #717171;
+    font-family: "Space Grotesk";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.56px;
+    width: 488px;
+    margin-left: 5px;
+}
