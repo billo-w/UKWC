@@ -20,6 +20,8 @@ body {
 .Nav-Bar{
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .Nav-Left {
@@ -27,16 +29,10 @@ body {
     align-items: center;
 }
 
-.Nav-Links li {
+.Nav-Right {
     display: inline-flex;
-    padding-left: 13px;
-    color: #404040;
-    text-align: center;
-    font-family: "Space Grotesk";
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    align-items: center;
+    gap: 20px;
 }
 
 .aboutbtn {
@@ -51,6 +47,34 @@ body {
     line-height: normal;
     padding: 14px 16px;
     background-color: inherit;
+}
+
+.newsletter {
+    color: #270D83;
+    text-align: center;
+    font-family: "Space Grotesk";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 5px;
+    border: 1px solid #270D83;
+    padding: 9px 14px 8px 14px;
+    background-color: inherit;
+}
+
+.donate {
+    color: #FFF;
+    text-align: center;
+    font-family: "Space Grotesk";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 5px;
+    background: #270D83;
+    border: 1px solid #270D83;
+    padding: 7px 17px 6px 17px;
 }
 
 header {
